@@ -1,0 +1,26 @@
+для сборки
+
+одноразовый 
+
+flutter pub run build_runner build --delete-conflicting-outputs
+
+Вдиет
+
+flutter pub run build_runner watch --delete-conflicting-outputs
+
+
+
+для создание splash screen
+flutter_native_splash - pub
+flutter pub run flutter_native_splash:create 
+
+
+
+для создание app icon
+flutter_native_splash - pub
+flutter pub run flutter_launcher_icons:main -f pubspec.yaml
+
+flutter pub run flutter_launcher_icons:main
+ 
+
+
